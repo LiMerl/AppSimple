@@ -5,9 +5,307 @@
 </head>
 <body>
 
-<center><h1>Voici une application simple</h1></center>
-<center><p>Look at the rat</p></center>
-<center><div><img src="rat.jpg" alt="White rat"> </div></center>
+<center><h1>Error log complète du 'quarc_comm' :</h1></center>
+
+  <div>
+    === Monitor & Tune (Elapsed: 13 sec) ===
+    Checking if target application is running...
+    No running target application detected.
+    ### Generating code and artifacts to 'Model specific' folder structure
+    ### Generating code into build folder: C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3
+    ### Invoking Target Language Compiler on QBot2e_Odometric_Localization.rtw
+    ### Using System Target File: C:\Program Files\Quanser\QUARC\quarc\targets\toolchain\linux_pi_3\quarc_linux_pi_3.tlc
+    ### Loading TLC function libraries
+    .......
+    ### Generating TLC interface API for custom data
+    .
+    ### Initial pass through model to cache user defined code
+    ....
+    ### Caching model source code
+    ...............................................................................
+    ...............................................................................
+    ......................
+        ### Writing header file QBot2e_Odometric_Localization_types.h
+        ### Writing source file QBot2e_Odometric_Localization.c
+        ### Writing header file QBot2e_Odometric_Localization_private.h
+        ### Writing header file QBot2e_Odometric_Localization.h
+        ### Writing header file rtwtypes.h
+    .
+        ### Writing header file multiword_types.h
+        ### Writing header file zero_crossing_types.h
+        ### Writing header file rt_nonfinite.h
+        ### Writing source file rt_nonfinite.c
+        ### Writing header file rtGetInf.h
+        ### Writing source file rtGetInf.c
+    .
+        ### Writing header file rtGetNaN.h
+        ### Writing source file rtGetNaN.c
+        ### Writing header file rtmodel.h
+        ### Writing source file QBot2e_Odometric_Localization_data.c
+        ### Writing header file rt_defines.h
+      ### TLC code generation complete.
+    ### Generating TLC interface API.
+    ...............................................................................
+    ..........................................
+    ### Creating data type transition file QBot2e_Odometric_Localization_dt.h
+    ### Using toolchain: QUARC linux_pi_3 | gmake (64-bit Windows)
+    ### 'C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3\QBot2e_Odometric_Localization.mk' is up to date
+    ### Building 'QBot2e_Odometric_Localization': "C:\PROGRA~1\MATLAB\R2021a\bin\win64\gmake"  -f QBot2e_Odometric_Localization.mk all
+    ..... 
+    C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3>cd .  
+     
+    C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3>chcp 1252  
+    Page de codes active : 1252 
+     
+    C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3>if "" == "" ("C:\PROGRA~1\MATLAB\R2021a\bin\win64\gmake"  -f QBot2e_Odometric_Localization.mk all )  else ("C:\PROGRA~1\MATLAB\R2021a\bin\win64\gmake"  -f QBot2e_Odometric_Localization.mk  )  
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"QBot2e_Odometric_Localization.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c" 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c: In function 'QBot2e_Odometric_Localization_output': 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:109:13: warning: variable 'rtb_HILReadTimebase_o6' set but not used [-Wunused-but-set-variable] 
+       boolean_T rtb_HILReadTimebase_o6; 
+                 ^ 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:108:13: warning: variable 'rtb_HILReadTimebase_o5' set but not used [-Wunused-but-set-variable] 
+       boolean_T rtb_HILReadTimebase_o5; 
+                 ^ 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:107:13: warning: variable 'rtb_HILReadTimebase_o4' set but not used [-Wunused-but-set-variable] 
+       boolean_T rtb_HILReadTimebase_o4; 
+                 ^ 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:104:10: warning: variable 'rtb_HILReadTimebase_o1' set but not used [-Wunused-but-set-variable] 
+       real_T rtb_HILReadTimebase_o1; 
+              ^ 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:512:69: warning: 'rtb_HILReadTimebase_o3' may be used uninitialized in this function [-Wmaybe-uninitialized] 
+           QBot2e_Odometric_Localization_P.tickstoencoderrotation_Gain_i * 
+                                                                         ^ 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:471:67: warning: 'rtb_HILReadTimebase_o2' may be used uninitialized in this function [-Wmaybe-uninitialized] 
+           QBot2e_Odometric_Localization_P.tickstoencoderrotation_Gain * 
+                                                                       ^ 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"QBot2e_Odometric_Localization_data.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization_data.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"QBot2e_Odometric_Localization_main.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization_main.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"rtGetInf.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/rtGetInf.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"rtGetNaN.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/rtGetNaN.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"rt_nonfinite.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/rt_nonfinite.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"rt_sim.o" "C:/PROGRA~1/MATLAB/R2021a/rtw/c/src/rt_sim.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"ext_svr.o" "C:/PROGRA~1/Quanser/QUARC/quarc/src/ext_svr.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"updown.o" "C:/PROGRA~1/Quanser/QUARC/quarc/src/updown.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"ext_work.o" "C:/PROGRA~1/Quanser/QUARC/quarc/src/ext_work.c" 
+    "### Creating standalone executable "../QBot2e_Odometric_Localization.rt-linux_pi_3" ..." 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"  -Wl,--hash-style=gnu -Wl,--as-needed -LC:/PROGRA~1/Quanser/QUARC/lib/linux_pi_3 -Wl,-rpath-link=C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/arm-linux-gnueabihf/lib -o../QBot2e_Odometric_Localization.rt-linux_pi_3 QBot2e_Odometric_Localization.o QBot2e_Odometric_Localization_data.o QBot2e_Odometric_Localization_main.o rtGetInf.o rtGetNaN.o rt_nonfinite.o rt_sim.o ext_svr.o updown.o ext_work.o C:/PROGRA~1/Quanser/QUARC/lib/LICFC8~1/libhil.a C:/PROGRA~1/Quanser/QUARC/lib/LICFC8~1/LI5A2F~1.A C:/PROGRA~1/Quanser/QUARC/lib/LICFC8~1/LIBQUA~4.A  -lextmode_quarc_r2013b -lquanser_communications -lquanser_runtime -lquanser_common -Wl,--no-as-needed -lmmal -Wl,--as-needed -lmmal_core -lmmal_components -lmmal_util -lmmal_vc_client -lvcos -lbcm_host -lrt -lpthread -ldl -lm 
+    "### Created: ../QBot2e_Odometric_Localization.rt-linux_pi_3" 
+    "### Successfully generated all binary outputs." 
+     
+    C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3>exit /B 0
+    ### Simulink cache artifacts for 'QBot2e_Odometric_Localization' were created in 'C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization.slxc'.
+    Build process completed successfully
+    Top model targets built:
+    
+    Model                          Action                       Rebuild Reason                   
+    =============================================================================================
+    QBot2e_Odometric_Localization  Code generated and compiled  Generated code was out of date.  
+    
+    1 of 1 models built (0 models already up to date)
+    Build duration: 0h 0m 11.652s
+    Deploying external mode target application.
+    Warning:Simulink cannot upload data to 'QBot2e_Odometric_Localization/Floating Scope' because it has no connected signals
+    Detected termination of target application.
+    Error:Error occurred while executing External Mode MEX-file 'quarc_comm':
+    The hil_task_create_reader function and HIL Read Timebase block are not supported by this particular card. Try one of the more specific functions or blocks.
+=== Monitor & Tune (Elapsed: 13 sec) ===
+    Checking if target application is running...
+    No running target application detected.
+    ### Generating code and artifacts to 'Model specific' folder structure
+    ### Generating code into build folder: C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3
+    ### Invoking Target Language Compiler on QBot2e_Odometric_Localization.rtw
+    ### Using System Target File: C:\Program Files\Quanser\QUARC\quarc\targets\toolchain\linux_pi_3\quarc_linux_pi_3.tlc
+    ### Loading TLC function libraries
+    .......
+    ### Generating TLC interface API for custom data
+    .
+    ### Initial pass through model to cache user defined code
+    ....
+    ### Caching model source code
+    ...............................................................................
+    ...............................................................................
+    ......................
+        ### Writing header file QBot2e_Odometric_Localization_types.h
+        ### Writing source file QBot2e_Odometric_Localization.c
+        ### Writing header file QBot2e_Odometric_Localization_private.h
+        ### Writing header file QBot2e_Odometric_Localization.h
+        ### Writing header file rtwtypes.h
+    .
+        ### Writing header file multiword_types.h
+        ### Writing header file zero_crossing_types.h
+        ### Writing header file rt_nonfinite.h
+        ### Writing source file rt_nonfinite.c
+        ### Writing header file rtGetInf.h
+        ### Writing source file rtGetInf.c
+    .
+        ### Writing header file rtGetNaN.h
+        ### Writing source file rtGetNaN.c
+        ### Writing header file rtmodel.h
+        ### Writing source file QBot2e_Odometric_Localization_data.c
+        ### Writing header file rt_defines.h
+      ### TLC code generation complete.
+    ### Generating TLC interface API.
+    ...............................................................................
+    ..........................................
+    ### Creating data type transition file QBot2e_Odometric_Localization_dt.h
+    ### Using toolchain: QUARC linux_pi_3 | gmake (64-bit Windows)
+    ### 'C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3\QBot2e_Odometric_Localization.mk' is up to date
+    ### Building 'QBot2e_Odometric_Localization': "C:\PROGRA~1\MATLAB\R2021a\bin\win64\gmake"  -f QBot2e_Odometric_Localization.mk all
+    ..... 
+    C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3>cd .  
+     
+    C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3>chcp 1252  
+    Page de codes active : 1252 
+     
+    C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3>if "" == "" ("C:\PROGRA~1\MATLAB\R2021a\bin\win64\gmake"  -f QBot2e_Odometric_Localization.mk all )  else ("C:\PROGRA~1\MATLAB\R2021a\bin\win64\gmake"  -f QBot2e_Odometric_Localization.mk  )  
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"QBot2e_Odometric_Localization.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c" 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c: In function 'QBot2e_Odometric_Localization_output': 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:109:13: warning: variable 'rtb_HILReadTimebase_o6' set but not used [-Wunused-but-set-variable] 
+       boolean_T rtb_HILReadTimebase_o6; 
+                 ^ 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:108:13: warning: variable 'rtb_HILReadTimebase_o5' set but not used [-Wunused-but-set-variable] 
+       boolean_T rtb_HILReadTimebase_o5; 
+                 ^ 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:107:13: warning: variable 'rtb_HILReadTimebase_o4' set but not used [-Wunused-but-set-variable] 
+       boolean_T rtb_HILReadTimebase_o4; 
+                 ^ 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:104:10: warning: variable 'rtb_HILReadTimebase_o1' set but not used [-Wunused-but-set-variable] 
+       real_T rtb_HILReadTimebase_o1; 
+              ^ 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:512:69: warning: 'rtb_HILReadTimebase_o3' may be used uninitialized in this function [-Wmaybe-uninitialized] 
+           QBot2e_Odometric_Localization_P.tickstoencoderrotation_Gain_i * 
+                                                                         ^ 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:471:67: warning: 'rtb_HILReadTimebase_o2' may be used uninitialized in this function [-Wmaybe-uninitialized] 
+           QBot2e_Odometric_Localization_P.tickstoencoderrotation_Gain * 
+                                                                       ^ 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"QBot2e_Odometric_Localization_data.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization_data.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"QBot2e_Odometric_Localization_main.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization_main.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"rtGetInf.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/rtGetInf.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"rtGetNaN.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/rtGetNaN.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"rt_nonfinite.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/rt_nonfinite.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"rt_sim.o" "C:/PROGRA~1/MATLAB/R2021a/rtw/c/src/rt_sim.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"ext_svr.o" "C:/PROGRA~1/Quanser/QUARC/quarc/src/ext_svr.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"updown.o" "C:/PROGRA~1/Quanser/QUARC/quarc/src/updown.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"ext_work.o" "C:/PROGRA~1/Quanser/QUARC/quarc/src/ext_work.c" 
+    "### Creating standalone executable "../QBot2e_Odometric_Localization.rt-linux_pi_3" ..." 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"  -Wl,--hash-style=gnu -Wl,--as-needed -LC:/PROGRA~1/Quanser/QUARC/lib/linux_pi_3 -Wl,-rpath-link=C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/arm-linux-gnueabihf/lib -o../QBot2e_Odometric_Localization.rt-linux_pi_3 QBot2e_Odometric_Localization.o QBot2e_Odometric_Localization_data.o QBot2e_Odometric_Localization_main.o rtGetInf.o rtGetNaN.o rt_nonfinite.o rt_sim.o ext_svr.o updown.o ext_work.o C:/PROGRA~1/Quanser/QUARC/lib/LICFC8~1/libhil.a C:/PROGRA~1/Quanser/QUARC/lib/LICFC8~1/LI5A2F~1.A C:/PROGRA~1/Quanser/QUARC/lib/LICFC8~1/LIBQUA~4.A  -lextmode_quarc_r2013b -lquanser_communications -lquanser_runtime -lquanser_common -Wl,--no-as-needed -lmmal -Wl,--as-needed -lmmal_core -lmmal_components -lmmal_util -lmmal_vc_client -lvcos -lbcm_host -lrt -lpthread -ldl -lm 
+    "### Created: ../QBot2e_Odometric_Localization.rt-linux_pi_3" 
+    "### Successfully generated all binary outputs." 
+     
+    C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3>exit /B 0
+    ### Simulink cache artifacts for 'QBot2e_Odometric_Localization' were created in 'C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization.slxc'.
+    Build process completed successfully
+    Top model targets built:
+    
+    Model                          Action                       Rebuild Reason                   
+    =============================================================================================
+    QBot2e_Odometric_Localization  Code generated and compiled  Generated code was out of date.  
+    
+    1 of 1 models built (0 models already up to date)
+    Build duration: 0h 0m 11.711s
+    Deploying external mode target application.
+    Warning:Simulink cannot upload data to 'QBot2e_Odometric_Localization/Floating Scope' because it has no connected signals
+    Detected termination of target application.
+    Error:Error occurred while executing External Mode MEX-file 'quarc_comm':
+    Unable to locate the dynamic link library or shared object.
+=== Monitor & Tune (Elapsed: 3 sec) ===
+    Checking if target application is running...
+    No running target application detected.
+    ### Generating code and artifacts to 'Model specific' folder structure
+    ### Generating code into build folder: C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3
+    ### Generated code for 'QBot2e_Odometric_Localization' is up to date because no structural, parameter or code replacement library changes were found.
+    ### Skipping makefile generation and compilation because C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization.rt-linux_pi_3 is up to date
+    Build process completed successfully
+    0 of 1 models built (1 models already up to date)
+    Build duration: 0h 0m 1.529s
+    Deploying external mode target application.
+    Warning:Simulink cannot upload data to 'QBot2e_Odometric_Localization/Floating Scope' because it has no connected signals
+    Detected termination of target application.
+    Error:Error occurred while executing External Mode MEX-file 'quarc_comm':
+    Unable to locate the dynamic link library or shared object.
+=== Monitor & Tune (Elapsed: 3 sec) ===
+    Checking if target application is running...
+    No running target application detected.
+    ### Generating code and artifacts to 'Model specific' folder structure
+    ### Generating code into build folder: C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3
+    ### Generated code for 'QBot2e_Odometric_Localization' is up to date because no structural, parameter or code replacement library changes were found.
+    ### Skipping makefile generation and compilation because C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization.rt-linux_pi_3 is up to date
+    Build process completed successfully
+    0 of 1 models built (1 models already up to date)
+    Build duration: 0h 0m 1.525s
+    Deploying external mode target application.
+    Warning:Simulink cannot upload data to 'QBot2e_Odometric_Localization/Floating Scope' because it has no connected signals
+    Detected termination of target application.
+    Error:Error occurred while executing External Mode MEX-file 'quarc_comm':
+    Unable to locate the dynamic link library or shared object.
+=== Monitor & Tune (Elapsed: 9 sec) ===
+    Checking if target application is running...
+    No running target application detected.
+    ### Code generation artifacts for 'QBot2e_Odometric_Localization' were unpacked from 'C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization.slxc'.
+    ### Generating code and artifacts to 'Model specific' folder structure
+    ### Generating code into build folder: C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3
+    ### Generated code for 'QBot2e_Odometric_Localization' is up to date because no structural, parameter or code replacement library changes were found.
+    ### Using toolchain: QUARC linux_pi_3 | gmake (64-bit Windows)
+    ### 'C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3\QBot2e_Odometric_Localization.mk' is up to date
+    ### Building 'QBot2e_Odometric_Localization': "C:\PROGRA~1\MATLAB\R2021a\bin\win64\gmake"  -f QBot2e_Odometric_Localization.mk all
+     
+    C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3>cd .  
+     
+    C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3>chcp 1252  
+    Page de codes active : 1252 
+     
+    C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3>if "" == "" ("C:\PROGRA~1\MATLAB\R2021a\bin\win64\gmake"  -f QBot2e_Odometric_Localization.mk all )  else ("C:\PROGRA~1\MATLAB\R2021a\bin\win64\gmake"  -f QBot2e_Odometric_Localization.mk  )  
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"QBot2e_Odometric_Localization.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c" 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c: In function 'QBot2e_Odometric_Localization_output': 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:109:13: warning: variable 'rtb_HILReadTimebase_o6' set but not used [-Wunused-but-set-variable] 
+       boolean_T rtb_HILReadTimebase_o6; 
+                 ^ 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:108:13: warning: variable 'rtb_HILReadTimebase_o5' set but not used [-Wunused-but-set-variable] 
+       boolean_T rtb_HILReadTimebase_o5; 
+                 ^ 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:107:13: warning: variable 'rtb_HILReadTimebase_o4' set but not used [-Wunused-but-set-variable] 
+       boolean_T rtb_HILReadTimebase_o4; 
+                 ^ 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:104:10: warning: variable 'rtb_HILReadTimebase_o1' set but not used [-Wunused-but-set-variable] 
+       real_T rtb_HILReadTimebase_o1; 
+              ^ 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:512:69: warning: 'rtb_HILReadTimebase_o3' may be used uninitialized in this function [-Wmaybe-uninitialized] 
+           QBot2e_Odometric_Localization_P.tickstoencoderrotation_Gain_i * 
+                                                                         ^ 
+    C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization.c:471:67: warning: 'rtb_HILReadTimebase_o2' may be used uninitialized in this function [-Wmaybe-uninitialized] 
+           QBot2e_Odometric_Localization_P.tickstoencoderrotation_Gain * 
+                                                                       ^ 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"QBot2e_Odometric_Localization_data.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization_data.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"QBot2e_Odometric_Localization_main.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/QBot2e_Odometric_Localization_main.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"rtGetInf.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/rtGetInf.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"rtGetNaN.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/rtGetNaN.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"rt_nonfinite.o" "C:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3/rt_nonfinite.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"rt_sim.o" "C:/PROGRA~1/MATLAB/R2021a/rtw/c/src/rt_sim.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"ext_svr.o" "C:/PROGRA~1/Quanser/QUARC/quarc/src/ext_svr.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"updown.o" "C:/PROGRA~1/Quanser/QUARC/quarc/src/updown.c" 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc" -c -march=armv8-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon-vfpv4 -Wall -fmessage-length=0 -MMD -MP -fpic -feliminate-unused-debug-types -DVXWORKS -DQUARC -D_GNU_SOURCE -DTARGET_TYPE=linux_pi_3 -D_RASPBERRY_PI -D_RASPBERRY_PI_3 -std=c90 -O  -DNDEBUG -DCLASSIC_INTERFACE=1 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DMAT_FILE=0 -DONESTEPFCN=0 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1 -DASSERTIONS=1 -DDOASSERTS -DMODEL=QBot2e_Odometric_Localization -DNUMST=2 -DNCSTATES=12 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot -IC:/temp/Qbot_Coulon_Limon_Rutschke/Qbot/Qbot/QBot2e_Odometric_Localization_quarc_linux_pi_3 -IC:/PROGRA~1/MATLAB/R2021a/extern/include -IC:/PROGRA~1/MATLAB/R2021a/simulink/include -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021a/rtw/c/src/ext_mode/common -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src -IC:/PROGRA~1/MATLAB/R2021a/toolbox/coder/rtiostream/src/utils -IC:/PROGRA~1/Quanser/QUARC/include -o"ext_work.o" "C:/PROGRA~1/Quanser/QUARC/quarc/src/ext_work.c" 
+    "### Creating standalone executable "../QBot2e_Odometric_Localization.rt-linux_pi_3" ..." 
+    "C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++"  -Wl,--hash-style=gnu -Wl,--as-needed -LC:/PROGRA~1/Quanser/QUARC/lib/linux_pi_3 -Wl,-rpath-link=C:/GW/msys/1.0/raspbian-pi3/4.9.2/arm-linux-gnueabihf/arm-linux-gnueabihf/lib -o../QBot2e_Odometric_Localization.rt-linux_pi_3 QBot2e_Odometric_Localization.o QBot2e_Odometric_Localization_data.o QBot2e_Odometric_Localization_main.o rtGetInf.o rtGetNaN.o rt_nonfinite.o rt_sim.o ext_svr.o updown.o ext_work.o C:/PROGRA~1/Quanser/QUARC/lib/LICFC8~1/libhil.a C:/PROGRA~1/Quanser/QUARC/lib/LICFC8~1/LI5A2F~1.A C:/PROGRA~1/Quanser/QUARC/lib/LICFC8~1/LIBQUA~4.A  -lextmode_quarc_r2013b -lquanser_communications -lquanser_runtime -lquanser_common -Wl,--no-as-needed -lmmal -Wl,--as-needed -lmmal_core -lmmal_components -lmmal_util -lmmal_vc_client -lvcos -lbcm_host -lrt -lpthread -ldl -lm 
+    "### Created: ../QBot2e_Odometric_Localization.rt-linux_pi_3" 
+    "### Successfully generated all binary outputs." 
+     
+    C:\temp\Qbot_Coulon_Limon_Rutschke\Qbot\Qbot\QBot2e_Odometric_Localization_quarc_linux_pi_3>exit /B 0
+    Build process completed successfully
+    Top model targets built:
+    
+    Model                          Action         Rebuild Reason                           
+    =======================================================================================
+    QBot2e_Odometric_Localization  Code compiled  Compilation artifacts were out of date.  
+    
+    1 of 1 models built (0 models already up to date)
+    Build duration: 0h 0m 7.566s
+    Deploying external mode target application.
+    Warning:Simulink cannot upload data to 'QBot2e_Odometric_Localization/Floating Scope' because it has no connected signals
+    Detected termination of target application.
+    Error:Error occurred while executing External Mode MEX-file 'quarc_comm':
+    Unable to locate the dynamic link library or shared object.
+
+  </div>
 
 
 </body>
